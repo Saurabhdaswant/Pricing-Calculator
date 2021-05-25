@@ -9,33 +9,34 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<main>
-    <div class="main-stuff">
-        <div class="jumbotron">
-            <h1>Pricing Calculator</h1>
-            <form>
-                <div class="form-group price-div">
-                    <label for="price">
-                        <p>Enter Amount</p>
-                    </label>
-                    <input type="text" class="form-control" name="price" value="20" />
-                </div>
-
-                <div class="form-group">
-                    <label for="quantity">
-                        <p>Quantity</p><span class=" quantity-label">1</span>
-                    </label>
-                    <input type="range" class="form-control" name="quantity" value="1" min="1" max="10" step="1" />
-                </div>
-            </form>
-        </div>
-        <div class="totalDiv">
-            $30
-        </div>
-    </div>
-</main>
-
 <body>
+    <main>
+        <div class="main-stuff">
+            <div class="jumbotron">
+                <h1>Pricing Calculator</h1>
+                <form>
+                    <div class="form-group price-div">
+                        <label for="price">
+                            <p>Enter Amount</p>
+                        </label>
+                        <input type="text" class="form-control" name="price" value="20" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantity">
+                            <p>Quantity</p><span class=" quantity-label">1</span>
+                        </label>
+                        <input type="range" class="form-control" name="quantity" value="1" min="1" max="10" step="1" />
+                    </div>
+                </form>
+            </div>
+            <div class="totalDiv">
+                $30
+            </div>
+        </div>
+    </main>
+
+
     <script src="/app.js"></script>
 </body>
 
