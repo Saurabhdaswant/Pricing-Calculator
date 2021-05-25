@@ -1,8 +1,83 @@
-body,
-.jumbotron {
-  padding: 5rem;
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #001833;
 }
 
-.text-giant {
-  font-size: 4rem;
+main {
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+  background-color: #f4f5fc;
+}
+
+main,
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-div {
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 2rem;
+}
+
+.price-div input,
+.totalDiv {
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+input {
+  text-align: center;
+  color: #001833;
+  border: none;
+  text-align: left;
+}
+
+.totalDiv,
+.form-group,
+input {
+  font-weight: bold;
+}
+
+.main-stuff,
+input {
+  background-color: #f8fafb;
+}
+.main-stuff {
+  max-width: 500px;
+  margin: 0 auto;
+
+  border-radius: 1rem;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+.jumbotron {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.totalDiv {
+  font-size: 2rem;
+  background-color: #248aff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.jumbotron,
+.totalDiv {
+  padding: 2rem;
 }
